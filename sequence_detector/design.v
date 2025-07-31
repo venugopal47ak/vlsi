@@ -35,8 +35,5 @@ module Sequence_Detector_MOORE (
       default: next = S0;
     endcase
   end
-  initial begin
-    $dumpfile("sd.vcd");
-    $dumpvars();
-  end
+  
 endmodule
